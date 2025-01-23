@@ -1,6 +1,5 @@
  The **Bone Fracture Detector** is a web-based application that analyzes X-ray images of bones to predict whether the bone is fractured or not. This project leverages a pre-trained machine learning model built with TensorFlow and Keras, and provides an intuitive interface for users via Streamlit.
     
-    ---
     
 ## Features
     
@@ -10,7 +9,7 @@
 - **Not Fractured**: Highlighted in bold green text.
 - **Interactive Display**: The uploaded image is displayed alongside the prediction for easy reference.
     
----
+
 
 ## Installation
 
@@ -29,7 +28,7 @@ pip install tensorflow streamlit pillow numpy
 ### Model File
 Ensure the pre-trained model file (`model_fractures.h5`) is available in the same directory as the script.
 
----
+
 
 ## Usage
 
